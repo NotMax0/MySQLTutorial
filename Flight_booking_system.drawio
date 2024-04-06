@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T11:39:56.393Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="rwFThA8K0yqzQ19x2idu" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T12:10:45.832Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4SSe0DsDKHFP-__Tudyq" version="24.2.2" type="github">
   <diagram name="Page-1" id="QZ5orh67vqz0MWlZrYwf">
-    <mxGraphModel dx="1075" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XTCwg6rb00VarzEBnDwD-1" value="Passenger" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="260" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XTCwg6rb00VarzEBnDwD-2" value="Name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-1">
+        <mxCell id="XTCwg6rb00VarzEBnDwD-2" value="firstName (string)&lt;div&gt;lastName (string)&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XTCwg6rb00VarzEBnDwD-3" value="Flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="230" width="180" height="160" as="geometry" />
+          <mxGeometry x="580" y="230" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="XTCwg6rb00VarzEBnDwD-4" value="Number (number)&lt;div&gt;DepartureDateTime (dateTime)&lt;/div&gt;&lt;div&gt;ArrivalDateTime (dateTime)&lt;/div&gt;&lt;div&gt;Duration (number)&lt;/div&gt;&lt;div&gt;Distance (number)&lt;/div&gt;&lt;div&gt;Airline (string)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-3">
-          <mxGeometry y="50" width="180" height="110" as="geometry" />
+        <mxCell id="XTCwg6rb00VarzEBnDwD-4" value="Number (string)&lt;div&gt;DepartureDateTime (dateTime)&lt;/div&gt;&lt;div&gt;ArrivalDateTime (dateTime)&lt;/div&gt;&lt;div&gt;DurationInMinutes (integer)&lt;/div&gt;&lt;div&gt;DistanceInMiles (integer)&lt;/div&gt;&lt;div&gt;DepartureAirportId (integer)&lt;/div&gt;&lt;div&gt;ArrivalAirportId (integer)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-3">
+          <mxGeometry y="50" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XTCwg6rb00VarzEBnDwD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XTCwg6rb00VarzEBnDwD-3" source="XTCwg6rb00VarzEBnDwD-4" target="XTCwg6rb00VarzEBnDwD-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XTCwg6rb00VarzEBnDwD-6" value="Airbort" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="370" width="160" height="120" as="geometry" />
+          <mxGeometry x="320" y="400" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XTCwg6rb00VarzEBnDwD-7" value="IATACode (string)&lt;div&gt;Name (string)&lt;/div&gt;&lt;div&gt;City (string)&lt;/div&gt;&lt;div&gt;State (string)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-6">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
@@ -31,7 +31,7 @@
         <mxCell id="XTCwg6rb00VarzEBnDwD-10" value="Ticket" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="90" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="XTCwg6rb00VarzEBnDwD-11" value="TicketNumber (number)&lt;div&gt;Price (number)&lt;/div&gt;&lt;div&gt;FlightClass (string)&lt;/div&gt;&lt;div&gt;ConfirmationNumber (string)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-10">
+        <mxCell id="XTCwg6rb00VarzEBnDwD-11" value="TicketNumber (string)&lt;div&gt;Price (float)&lt;/div&gt;&lt;div&gt;ConfirmationNumber (string)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-10">
           <mxGeometry y="50" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XTCwg6rb00VarzEBnDwD-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XTCwg6rb00VarzEBnDwD-2" target="XTCwg6rb00VarzEBnDwD-10">
@@ -65,6 +65,33 @@
         <mxCell id="XTCwg6rb00VarzEBnDwD-20" value="Departs/Arrives at" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XTCwg6rb00VarzEBnDwD-18">
           <mxGeometry x="-0.0531" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-21" value="Airline" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-22" value="Name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-21">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="XTCwg6rb00VarzEBnDwD-22" target="XTCwg6rb00VarzEBnDwD-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="770" y="430" as="sourcePoint" />
+            <mxPoint x="810" y="303" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-24" value="FlightClass" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-25" value="Name (string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="XTCwg6rb00VarzEBnDwD-24">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XTCwg6rb00VarzEBnDwD-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XTCwg6rb00VarzEBnDwD-25" target="XTCwg6rb00VarzEBnDwD-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="100" as="sourcePoint" />
+            <mxPoint x="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
